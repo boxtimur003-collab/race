@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+a { color: #ff7a18; }
+button {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #ff7a18, #ffb547);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(255,122,24,0.4); }
+button.secondary {
+  background: #232a3a;
+  color: #fff;
+  border: 1px solid #2d3548;
+}
